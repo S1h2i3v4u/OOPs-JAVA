@@ -89,3 +89,33 @@ Car car1 = new Car();
 ```
 - car1 (reference) → Stack
 - new Car() (object) → Heap
+
+## 5. Multiple Objects
+
+- You can create multiple objects from the same class.
+- Each object has its own copy of instance variables.
+
+```
+Car car1 = new Car();
+Car car2 = new Car();
+```
+
+## 6. Anonymous Objects
+
+Objects without a reference variable. Used only once.
+```
+new Car().drive();
+```
+## 7. Class Members
+
+- Instance variables → Belong to objects
+- Static variables → Belong to class (shared)
+- Methods → Define behavior
+- Constructors → Initialize objects
+
+## 8. Key Points
+
+- A class is a logical entity, not memory-allocated until objects are created.
+- An object is a physical entity (created at runtime).
+- A class can have multiple objects.
+- Objects are created using 'new' keyword.
