@@ -1,6 +1,6 @@
-## Classes and Objects in Java
+# Classes and Objects in Java
 
-1. Introduction
+## 1. Introduction
 
 Java is an Object-Oriented Programming Language (OOP).
 
@@ -12,7 +12,7 @@ Java is an Object-Oriented Programming Language (OOP).
 - Class = Car (blueprint)
 - Objects = Honda, BMW, Tesla
 
-2. What is a Class?
+## 2. What is a Class?
 
 A class in Java is a user-defined data type that acts as a blueprint for objects.
 
@@ -39,7 +39,7 @@ class Car {
 
 ```
 
-3. What is an Object?
+## 3. What is an Object?
 
 An object is an instance of a class, created using the new keyword.
 
@@ -74,7 +74,7 @@ Tesla is driving at 150 km/h
 
 ```
 
-4. Memory Allocation
+## 4. Memory Allocation
 
 When an object is created:
 
